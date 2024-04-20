@@ -1,0 +1,11 @@
+12 2 4 3 10 1 3 2 2
+0,0 0,1
+0,0
+0,1
+1,1 Funghi Margherita
+1,0 Margherita
+2,0 Funghi Margherita
+2,1 Hawaii
+I 3 0,0 Hawaii
+O 7 0,1 Margherita
+O 10 0,1 Funghi
