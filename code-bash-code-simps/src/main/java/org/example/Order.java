@@ -6,6 +6,8 @@ public class Order {
     private int[] coordinate;
     private String item;
 
+    private Vehicle vehicle = null;
+
     public Order(char type, int tick, int[] coordinate, String item) {
         this.type = type;
         this.tick = tick;
@@ -17,4 +19,8 @@ public class Order {
     public int getTick() { return tick; }
     public int[] getCoordinate() { return coordinate; }
     public String getItem() { return item; }
+
+    public Vehicle getVehicle() { return vehicle; }
+
+    public void setVehicle(Vehicle vehicle) { this.vehicle = vehicle; }
 }
